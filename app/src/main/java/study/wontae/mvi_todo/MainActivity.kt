@@ -1,12 +1,10 @@
 package study.wontae.mvi_todo
 
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.widget.TextView
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import study.wontae.mvi_todo.databinding.ActivityMainBinding
 import study.wontae.mvi_todo.intent.TodoIntent
